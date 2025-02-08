@@ -1,0 +1,20 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor Personalizado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player">
+        <div class="controls">
+            <button id="pause"><img src="photo/pause.png" alt="Pause"></button>
+            <button id="play"><img src="photo/play.png" alt="Play"></button>
+            <button id="restart"><img src="photo/refresh.png" alt="Restart"></button>
+        </div>
+        <input type="range" id="volume" class="volume" min="0" max="1" step="0.01" value="1">
+    </div>
+    <audio id="audio" src="music/MUSIC (mp3cut.net).mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
