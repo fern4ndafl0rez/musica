@@ -7,11 +7,12 @@ body {
     background: transparent;
 }
 
+
 .reproductor { 
     background: transparent;
 }
+
 .player {
-    width: 15rem;
     background-color: #8C735D;
     padding: 15px;
     border-radius: 10px;
@@ -34,7 +35,7 @@ body {
     height: 40px;
 }
 .volume {
-    width: 210px;
+    width: 180px;
     -webkit-appearance: none;
     appearance: none;
     height: 5px;
