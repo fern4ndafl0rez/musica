@@ -4,7 +4,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: transparent;
+    background: transparent;
+}
+
+.reproductor { 
+    background: transparent;
 }
 .player {
     width: 15rem;
